@@ -283,7 +283,7 @@ var theaters = L.geoJson(null, {
         }
     }
 });
-$.getJSON("http://9c736b93.ngrok.io/map/atendidas.json", function(data) {
+$.getJSON("https://9c736b93.ngrok.io/map/atendidas.json", function(data) {
     theaters.addData(data);
     map.addLayer(theaterLayer);
 });
